@@ -12,7 +12,7 @@ def get_collection_as_dataframe(database_name:str,collection_name:str)->pd.DataF
     database_name: database name
     collection_name: collection name
     =========================================================
-    return Pandas dataframe of a collection
+    return Pandas dataframe of a collection mentioned
     """
     try:
         logging.info(f"Reading data from database: {database_name} and collection: {collection_name}")
